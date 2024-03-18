@@ -1,0 +1,59 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplify2f9f36f376da4-staging-83400-authRole",
+      "UnauthRoleArn": "arn:aws:iam::637423543521:role/amplify-amplify2f9f36f376da4-staging-83400-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::637423543521:role/amplify-amplify2f9f36f376da4-staging-83400-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplify2f9f36f376da4-staging-83400-deployment",
+      "UnauthRoleName": "amplify-amplify2f9f36f376da4-staging-83400-unauthRole",
+      "StackName": "amplify-amplify2f9f36f376da4-staging-83400",
+      "StackId": "arn:aws:cloudformation:us-east-1:637423543521:stack/amplify-amplify2f9f36f376da4-staging-83400/1b13df20-e439-11ee-8170-0afff5830dbd",
+      "AmplifyAppId": "d1ne9lhogn7f9y"
+    },
+    "categories": {
+      "auth": {
+        "eventmanagement": {}
+      }
+    }
+  },
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-eventmanagement-dev-90516-authRole",
+      "UnauthRoleArn": "arn:aws:iam::637423543521:role/amplify-eventmanagement-dev-90516-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::637423543521:role/amplify-eventmanagement-dev-90516-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-eventmanagement-dev-90516-deployment",
+      "UnauthRoleName": "amplify-eventmanagement-dev-90516-unauthRole",
+      "StackName": "amplify-eventmanagement-dev-90516",
+      "StackId": "arn:aws:cloudformation:us-east-1:637423543521:stack/amplify-eventmanagement-dev-90516/f2de9f30-e41b-11ee-9fc1-0affcaee7343",
+      "AmplifyAppId": "d1ne9lhogn7f9y"
+    },
+    "categories": {
+      "api": {
+        "eventmanagement": {}
+      },
+      "auth": {
+        "eventmanagemente74a447c": {}
+      }
+    }
+  },
+  "events": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-eventmanagement-events-124221-authRole",
+      "UnauthRoleArn": "arn:aws:iam::637423543521:role/amplify-eventmanagement-events-124221-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::637423543521:role/amplify-eventmanagement-events-124221-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-eventmanagement-events-124221-deployment",
+      "UnauthRoleName": "amplify-eventmanagement-events-124221-unauthRole",
+      "StackName": "amplify-eventmanagement-events-124221",
+      "StackId": "arn:aws:cloudformation:us-east-1:637423543521:stack/amplify-eventmanagement-events-124221/4785ef20-e43a-11ee-b7ab-12305f431e79",
+      "AmplifyAppId": "d1ne9lhogn7f9y"
+    },
+    "categories": {
+      "auth": {
+        "eventmanagemente74a447c": {}
+      }
+    }
+  }
+}
