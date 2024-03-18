@@ -33,7 +33,7 @@ const EventsList: FC<EventListProps> = ({ userId }) => {
   const [message, setMessage] = useState({ text: "", type: AlertType.Success });
 
   useEffect(() => {
-    allEvents().then((eventList) => setEvents(eventList));
+    allEvents().then((eventList) => setEvents(eventList ? eventList : []));
   }, []);
 
   if (!events) {
