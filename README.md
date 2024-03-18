@@ -1,13 +1,5 @@
 Project title: Event Management Platform
 Project Description: This is a simple event management platform that allows users to create, view, and manage events.
-
-## Installation
-1. Clone the repository: git clone git@github.com:Arpine-javakhkuhi/event_management.git
-
-2. cd event-management
-3. npm install
-4. npm run dev
-
 ## Setup Aws
 1. Got to https://aws.amazon.com/, create an account
 2. In 'Access keys" section create Access key (save .csv file, it will be needed later)
@@ -22,3 +14,17 @@ Project Description: This is a simple event management platform that allows user
   * Configure sign-up experience: -> Required attributes -> choose needed attribute(in our cases there are 'family_name' and 'name'
   * Configure message delivery: -> choose 'Send email with Cognito'
   * Integrate your app: Client secret -> choose 'Generate a client secret'
+6. in terminal ->  'amplify add auth'
+    * Do you want to configure advanced settings? ❯ Yes, I want to make some additional changes. ->  What attributes are required for signing up? Email, Family 
+      Name, Name
+7. 'amplify push' in terminal
+
+## Installation
+1. Clone the repository: git clone git@github.com:Arpine-javakhkuhi/event_management.git
+
+2. cd event-management
+3. npm install
+4. npm run dev
+
+
+ 
