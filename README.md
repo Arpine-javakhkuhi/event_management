@@ -1,5 +1,6 @@
 Project title: Event Management Platform
 Project Description: This is a simple event management platform that allows users to create, view, and manage events.
+
 ## Setup Aws
 1. Got to https://aws.amazon.com/, create an account
 2. In 'Access keys" section create Access key (save .csv file, it will be needed later)
@@ -18,6 +19,7 @@ Project Description: This is a simple event management platform that allows user
     * Do you want to configure advanced settings? ❯ Yes, I want to make some additional changes. ->  What attributes are required for signing up? Email, Family 
       Name, Name
 7. 'amplify push' in terminal
+8. 'amlify add api' in termianl -> setup graphql
 
 ## Installation
 1. Clone the repository: git clone git@github.com:Arpine-javakhkuhi/event_management.git
